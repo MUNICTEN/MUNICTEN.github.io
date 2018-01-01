@@ -9,20 +9,21 @@
 	padding-top: 16px;
 	padding-bottom: 16px;
 
-	background-color: #cc0036;
+	background-color: #ca2c55;
 }
 
 .register a {
-	width: 100%;
+	width: 90%;
 	line-height: 24px;
 	text-decoration: none;
 	color: white;
 	font-family: 'Barlow';
 	font-size: 1.2em;
 	font-weight: 900;
-	text-align: center;
+	text-align: right;
 	display: block;
-	float: left;
+	max-width: 640px;
+	margin: 0 auto;
 	vertical-align: center;
 }
 
@@ -32,7 +33,9 @@ header {
 	padding-top: 64px;
 	padding-bottom: 96px;
 
-	background-color: #ff1451;
+	/*background-color: #ff1451;*/
+	background: url(hero.png);
+	background-position: top;
 }
 
 header .logo {
@@ -45,7 +48,7 @@ header .logo {
 	display: block;
 	width: 90%;
 	max-width: 640px;
-	min-width: 320px;
+	min-width: 300px;
 	margin: 0 auto;
 	margin-top: -32px;
 	margin-bottom: 32px;
@@ -75,7 +78,7 @@ header .logo {
 }
 
 .cover-letter .signeture {
-	width: 96px;
+	width: 80px;
 	margin-top: 16px;
 }
 
@@ -95,7 +98,7 @@ header .logo {
 	display: block;
 	width: 90%;
 	max-width: 640px;
-	min-width: 320px;
+	min-width: 300px;
 	margin: 48px auto;
 }
 
@@ -145,7 +148,7 @@ footer .fwrap {
 	display: block;
 	width: 90%;
 	max-width: 640px;
-	min-width: 320px;
+	min-width: 300px;
 	margin: 0 auto;
 }
 
@@ -170,7 +173,7 @@ footer .fwrap ul li {
 	height: 24px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 16px;
 }
 
 footer .fwrap ul li img {
