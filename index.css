@@ -9,14 +9,14 @@
 	padding-top: 16px;
 	padding-bottom: 16px;
 
-	background-color: #ca2c55;
+	background-color: white;
 }
 
 .register a {
 	width: 90%;
 	line-height: 24px;
 	text-decoration: none;
-	color: white;
+	color: #e93b68;
 	font-family: 'Barlow';
 	font-size: 1.2em;
 	font-weight: 900;
@@ -54,9 +54,13 @@ header .logo {
 	margin-bottom: 32px;
 	background-color: white;
 	border-radius: 4px;
-	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.25);
-	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.12);
+}
+
+.card hr {
+	background-color: #dadada;
+	height: 1px;
+	border: none;
 }
 
 .cover-letter {
@@ -67,20 +71,28 @@ header .logo {
 	font-family: 'Barlow';
 	font-weight: 600;
 	margin-bottom: 16px;
-	color: #333;
+	color: #E91E63;
 }
 
 .cover-letter p {
 	font-family: 'Barlow';
 	font-weight: 400;
 	color: #666;
+	line-height: 1.6em;
+    font-size: 0.8em;
 
 }
 
-.cover-letter .signeture {
+.cover-letter .signeture-nafees {
 	width: 80px;
 	margin-top: 16px;
 }
+
+.cover-letter .signeture-shuji {
+	height: 80px;
+	margin-top: 16px;
+}
+
 
 .cover-letter .title {
 	font-family: 'Barlow';
@@ -106,7 +118,7 @@ header .logo {
 	width: 100%;
 	font-family: 'Barlow';
 	font-weight: 600;
-	color: #333;
+	color: #263238;
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -126,15 +138,138 @@ header .logo {
 	margin: 8px;
 	font-family: 'Barlow';
 	font-weight: 900;
-	color: #333;
+	color: #ff1451;
 	font-size: 1em;
 	background-color: white;
-	border-radius: 4px;
+	border-radius: 12px;
 	display: inline-block;
-	-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
-	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 4px 20px -4px rgba(255,20,81,0.2);
+	box-shadow: 0px 4px 20px -4px rgba(0,0,0,0.2);
 }
+
+.app {
+	background-color: #fff6f9;
+	box-shadow: inset 0px 24px 88px -24px rgba(255,20,83,0.16);
+
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.app .phone-holder {
+	overflow-x: hidden;
+	position: relative;
+
+	display: block;
+	width: 100%;
+	max-width: 560px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+.app .phone-holder:before {
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 96px;
+	top: 124px;
+	left: 0px;
+	background: linear-gradient(90deg, #fff6f9, transparent);
+	z-index: 1;
+}
+
+.app .phone-holder:after {
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 96px;
+	top: 124px;
+	right: 0px;
+	background: linear-gradient(90deg, transparent, #fff6f9);
+	z-index: 1;
+}
+
+@media only screen and (max-width: 460px) {
+	.app .phone-holder:after {
+		display: none;
+	}
+
+	.app .phone-holder:before {
+		display: none;
+	}
+}
+
+.app .buttons-strip {
+	height: 96px;
+	width: 672px;
+	position: absolute;
+	top: 124px;
+	left: -64px;
+	z-index: 0;
+}
+
+.app .phone {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 64px;
+	margin-bottom: 24px;
+	display: block;
+}
+
+.app h1 {
+	width: 90%;
+	max-width: 640px;
+	font-family: 'Barlow';
+	font-weight: 600;
+	color: #263238;
+	display: block;
+	margin: 0 auto; 
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.app p {
+	width: 90%;
+	max-width: 640px;
+	font-family: 'Barlow';
+	font-weight: 400;
+	color: #263238;
+	text-align: center;
+	display: block;
+	margin: 0 auto; 
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
 	width: 100%;
