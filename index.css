@@ -114,7 +114,7 @@ header .logo {
 	margin: 48px auto;
 }
 
-.committees h2 {
+.committees h1 {
 	width: 100%;
 	font-family: 'Barlow';
 	font-weight: 600;
@@ -148,7 +148,7 @@ header .logo {
 }
 
 .app {
-	background-color: #fff6f9;
+	background-color: white;
 	box-shadow: inset 0px 24px 88px -24px rgba(255,20,83,0.16);
 
 	width: 100%;
@@ -174,7 +174,7 @@ header .logo {
 	height: 96px;
 	top: 124px;
 	left: 0px;
-	background: linear-gradient(90deg, #fff6f9, transparent);
+	background: linear-gradient(90deg, white, transparent);
 	z-index: 1;
 }
 
@@ -185,7 +185,7 @@ header .logo {
 	height: 96px;
 	top: 124px;
 	right: 0px;
-	background: linear-gradient(90deg, transparent, #fff6f9);
+	background: linear-gradient(90deg, transparent, white);
 	z-index: 1;
 }
 
@@ -238,6 +238,7 @@ header .logo {
 	display: block;
 	margin: 0 auto; 
 	text-align: center;
+	font-size: 0.8em;
 	margin-bottom: 40px;
 }
 
