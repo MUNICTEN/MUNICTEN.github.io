@@ -204,7 +204,7 @@ header .logo {
 	width: 672px;
 	position: absolute;
 	top: 124px;
-	left: -24px;
+	left: -64px;
 	z-index: 0;
 }
 
@@ -330,6 +330,7 @@ footer .fwrap ul li img {
 	left: 0;
 	background-color: white;
 	z-index: 2;
+	overflow-y: scroll;
 
 	display: block;
 	visibility: hidden;
