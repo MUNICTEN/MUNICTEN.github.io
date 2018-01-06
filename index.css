@@ -242,39 +242,38 @@ header .logo {
 	margin-bottom: 40px;
 }
 
+.waiver {
+	width: 100%;
+	display: block;
+	float: left;
+	background-color: #e91e63;
+	height: 48px;
+}
 
+.waiver-holder {
+	display: block;
+	width: 90%;
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.waiver-holder a {
+	font-family: 'Barlow';
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	line-height: 48px;
+	vertical-align: middle;
+	text-align: left;
+	display: block;
+}
 
 footer {
 	width: 100%;
 	display: block;
 	float: left;
-	background-color: #e91e63;
+	background-color: #ba124a;
 	height: 64px;
 }
 
