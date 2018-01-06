@@ -246,8 +246,6 @@ header .logo {
 	width: 100%;
 	display: block;
 	float: left;
-	background-color: #e91e63;
-	height: 48px;
 }
 
 .waiver-holder {
@@ -258,14 +256,25 @@ header .logo {
 	margin: 0 auto;
 }
 
+.waiver-holder h1 {
+	width: 90%;
+	max-width: 640px;
+	font-family: 'Barlow';
+	font-weight: 600;
+	color: #263238;
+	display: block;
+	margin: 0 auto; 
+	text-align: center;
+	margin-bottom: 16px;
+}
+
 .waiver-holder a {
 	font-family: 'Barlow';
 	font-weight: 600;
 	text-decoration: none;
-	color: white;
-	line-height: 48px;
-	vertical-align: middle;
-	text-align: left;
+	color: #ff1451;
+	text-align: center;
+	margin-bottom: 48px;
 	display: block;
 }
 
