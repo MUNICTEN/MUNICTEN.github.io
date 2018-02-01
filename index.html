@@ -27,7 +27,7 @@
 		<img src="assets/munictenlogowhite.svg" class="logo">
 	</header>
 
-	<div class="card">
+	<div class="card" id="card">
 
 		<section class="cover-letter">
 			<h1>Greetings, delegates!</h1>
@@ -48,6 +48,10 @@
 			<h4 class="post">President</h4>
 		
 		</section>
+
+		<div class="continue-reading" id="continue-reading">
+			<a href="#" onclick="toggleviewmore()"><span>Continue reading</span></a>
+		</div>
 
 	</div>
 
@@ -81,7 +85,7 @@
 	<div class="waiver">
 		<div class="waiver-holder">
 			<h1>Waiver Of Liability</h1>
-			<a href="./Waiver_Of_Liability.pdf">Download here</a>
+			<a href="./documents/Waiver_Of_Liability.pdf">Download here</a>
 		</div>
 	</div>
 
@@ -153,6 +157,12 @@
 
 			document.getElementById('detailHeading').innerHTML = '';
 			document.getElementById('detailPara').innerHTML = '';
+		}
+
+		function toggleviewmore() {
+			card = document.getElementById("card");
+			card.classList.add("card-full");
+			document.getElementById("continue-reading").style.display = "none";
 		}
 
 
