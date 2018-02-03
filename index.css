@@ -216,6 +216,7 @@ header .logo {
 	font-weight: 400;
 	font-size: 1em;
 	color: white;
+	text-shadow: 0 2px 24px white;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
@@ -225,10 +226,11 @@ header .logo {
 	font-family: 'Barlow';
 	font-weight: 900;
 	font-size: 3.6em;
-	color: white;
+	color: #ff1451;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	text-shadow: 0 2px 40px #ff1451;
 }
 
 @media only screen and (max-width: 1080px) {
